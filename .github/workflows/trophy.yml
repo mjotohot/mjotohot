@@ -19,17 +19,12 @@ jobs:
         with:
           username: mjotohot
           token: ${{ secrets.GITHUB_TOKEN }}
-          output_path: trophy.svg
+          output_path: ./generated/trophy.svg
           theme: default
-
-      - name: Prepare Trophy
-        run: |
-          mkdir -p public
-          cp trophy.svg public/trophy.svg
 
       - name: Push Trophy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: trophy-output
-          publish_dir: ./public
+          publish_dir: ./generated
