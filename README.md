@@ -1,8 +1,6 @@
 <h1 data-importer="text" align="center">Hey there!👋 What's up?</h1>
 
-I'm a full-stack web developer building with Vue/Nuxt on the frontend and NestJS on the backend. Working primarily with TypeScript, Firebird, and Supabase, I focus on turning complex data and workflows into clean, straightforward user interfaces.
-
-**I believe in writing clean code, solving problems, and continuously growing as a developer.**
+I'm a full-stack web developer building with Vue/Nuxt on the frontend and NestJS on the backend. Working primarily with TypeScript, Firebird, and Supabase, I focus on turning complex data and workflows into clean, straightforward user interfaces. **I believe in writing clean code, solving problems, and continuously growing as a developer.**
 
 ###
 
